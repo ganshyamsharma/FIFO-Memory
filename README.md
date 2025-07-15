@@ -1,5 +1,5 @@
 # FIFO
-Synthesizable verilog code for first in first out memory. The depth and width of fifo memory can be changed by adjusting the parameters **DEPTH** & **WIDTH** values.
+Synthesizable verilog code for first in first out type memory. The depth and width of memory can be changed by adjusting the values of parameters **DEPTH** & **WIDTH**.
 ## I/O Description
 - i_clk		: Input clock
 - i_rst_n	: Active low reset signal, reset the fifo read & write pointers to zero
