@@ -3,7 +3,7 @@ module FIFO #(parameter DEPTH = 8, WIDTH = 8)(
 	input i_clk, i_rst_n,
 	input i_wr_en, i_rd_en,
 	input [WIDTH - 1 : 0] i_wr_data,
-	output [WIDTH - 1 : 0] o_rd_data,
+	output reg [WIDTH - 1 : 0] o_rd_data,
 	output o_empty, o_mem_full
 );
 	reg [2:0] r_wr_ptr, r_rd_ptr;
