@@ -1,19 +1,16 @@
 # FIFO
 Synthesizable verilog code for first in first out type memory. The depth and width of memory can be changed by adjusting the values of parameters **DEPTH** & **WIDTH**.
 ## I/O Description
-<<<<<<< HEAD
 - i_rd_clk           : Data read clock
 - i_wr_clk           : Data write clock
 - i_wr_en	         : Write enable signal, assert high to write data in the fifo memory
 - i_rd_en	         : Read enable signal, assert high to read the fifo memory
-=======
 - i_clk		           : Input clock; optional fastest clock, can be tied to i_rd_clk or i_wr_clk
 - i_rd_clk           : Data read clock
 - i_wr_clk           : Data write clock
 - i_rst_n	           : Active low reset signal, reset the fifo read & write pointers to zero
 - i_wr_en	           : Write enable signal, assert high to write data in the fifo memory
 - i_rd_en	           : Read enable signal, assert high to read the fifo memory
->>>>>>> 613de8085c32894acd52e6f0d22cab4c8f36ccda
 - i_wr_data	         : Input data to be written in the memory, assert **i_wr_en** high signal to write in memory
 - i_almost_full_lim  : Limit for setting the almost full flag
 - i_almost_empty_lim : Limit for setting the almost empty flag
